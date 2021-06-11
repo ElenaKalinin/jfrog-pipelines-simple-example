@@ -50,6 +50,7 @@ pipelines:
           onExecute:
             # Demonstrates the availability of an env variable written to run state during p1_s1
             - echo $current_runid
+            - echo "Hello World!"
 
       - name: p1_s3
         type: Bash
